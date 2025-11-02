@@ -1,0 +1,9 @@
+{
+  "name": "Linux Desktop Codespace",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [6080],
+  "postCreateCommand": "echo 'Desktop ready at http://localhost:6080/vnc.html'",
+  "remoteUser": "root"
+}
